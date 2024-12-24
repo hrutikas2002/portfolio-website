@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static%}
+{% block content %} 
+
+<div class="row my-2 ">
+    {% for certificate in certificates %}
+        <div class="jumbotraon jumbotraon-fluid mt-3 ">
+            <h1 class="certname">{{certificate.title}}</h1>
+            <p class="certinfo">
+                {{certificate.organization}} <br> 
+                {{certificate.issue_date}} <br>
+                <strong style="color: white;">Core Learnings:</strong> {{certificate.description}} 
+                <br>
+                {% if certificate.link %}
+                <a href="{{ certificate.link }}" target="_blank" class="btn btn-primary mt-2">View Certificate</a>
+                {% endif %}
+            </p>
+        </div>
+    {% endfor %}
+</div>
+
+    
+
+
+{% endblock content %}

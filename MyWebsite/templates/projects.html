@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static%}
+{% block content %} 
+
+<div class="row my-2">
+    {% for project in projects_show %}
+    <div class="col-4">
+        <h4 class="text-light mt-4">{{ project.title }}</h4>
+        <br>
+        
+        {% if project.title == "Recruitment System API" or project.title == "To Do Web App" %}
+        <br>  <!-- This adds an extra break after the titles you mentioned -->
+        {% endif %}
+        
+        <a href="{{ project.url }}" target="_blank">
+            <img src="{% static project.path %}" width="400" height="500" class="img-fluid">
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+
+{% endblock content %}

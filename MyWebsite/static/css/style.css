@@ -1,0 +1,152 @@
+body{
+    background-color:#1e1e1e;
+}
+
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: #00d4ff;
+    
+}
+
+.navbar-nav .nav-link{
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 25px ;
+}
+
+.navbar-dark{
+    background-color: #2f3b42;
+}
+.circular-image-container{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image{
+    width: 50px;
+    width: 400px;
+    display: flex;
+}
+
+.name{
+    color: #fff;
+}
+
+.title{
+    color: #6baedc;
+
+}
+
+.social_links{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.about-image {
+    width: 250px;
+    height: auto;
+    display: block;
+    border: #ccc;
+}
+
+
+.jumbotraon{
+    margin: 0;
+    background-color: #37474f;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.display4{
+    font-weight: bold;
+    color: #f1f1f1 ;
+    font-size: 24px;
+}
+
+.role{
+    font-weight: bold;
+    font-size: 18px;
+    color: #66bb6a ;
+    
+}
+.lead {
+    font-size: 18px;
+    color: #c3aed6  ;
+}
+
+.outcome{
+    font-size: 18px;
+    color: #c3aed6  ;
+}
+
+.certname{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.certinfo{
+    font-size: 15px;
+    color: #c3aed6;;
+}
+
+.form-container{
+    border: 2px solid rgb(190, 182, 182);
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #2f3b42;
+}
+
+.animated-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #22a7ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+.animated-btn i {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+.animated-btn:hover {
+    background-color: #e64a19;
+}
+.animated-btn:hover i {
+    transform: rotate(360deg);
+}
+
+.last-page-message {
+    font-size: 18px;
+    font-weight: 600;
+    color: #f0eaea;
+    font-style: italic;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

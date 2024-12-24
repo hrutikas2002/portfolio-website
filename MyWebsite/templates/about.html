@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static%}
+{% block content %} 
+
+<div class="row my-5">
+
+    <div class="col-4 d-flex justify-content-center align-item-center">
+        <img src="{% static 'images/about.jpg'%}" alt="Image" class="about-image">
+    </div>
+
+    <div class="col-7 text-left text-light">
+        <h2>Hello!</h2>
+        <p class="fs-5">
+            I’m Hrutika Suryawanshi, a passionate Computer Engineer with a flexible and adaptable mindset. I am passionate about exploring the world of software development. With skills in Python, SQL, HTML, CSS, and Core Java, I am eager to learn, grow, and create impactful solutions.
+        </p>
+
+        <p class="fs-5">
+            My journey combines technical expertise, problem-solving skills, and a continuous learning attitude. Let’s build something amazing together!
+        </p>
+    </div>
+
+</div>
+
+<div class="row my-2">
+    <h2 class="text-center" style="color: #6baedc; margin-bottom: 20px; font-weight:bolder"> My Tech stack </h2>
+    <div class="d-flex justify-content-around align-item-center mt-2">
+        <img src="{% static 'images/html-img.png' %}" alt="HTML" width="70" height="70" class="img-fluid">
+
+        <img src="{% static 'images/css-img.jpeg' %}" alt="CSS" width="70" height="70" class="img-fluid">
+
+        <img src="{% static 'images/python-img.png' %}" alt="Python" width="70" height="70" class="img-fluid">
+
+        <img src="{% static 'images/SQL-img.jpeg' %}" alt="SQL" width="70" height="70" class="img-fluid">
+
+        <img src="{% static 'images/django-img.png' %}" alt="Django" width="70" height="70" class="img-fluid">
+
+        <img src="{% static 'images/corejava-img.png' %}" alt="CoreJava" width="70" height="70" class="img-fluid">
+
+
+    </div>
+    
+</div>
+<style>
+    .img-fluid {
+        transition: transform 0.3s ease; /* Smooth transition */
+    }
+
+    .img-fluid:hover {
+        transform: scale(1.5); /* Slight zoom effect */
+    }
+</style>
+
+
+{% endblock content %}
