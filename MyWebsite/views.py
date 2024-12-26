@@ -29,7 +29,7 @@ def projects(request):
 def experiences(request):
 
     experiences = [
-        {"company":"CentraLogic Consultancy, pune",
+        {"company":"CentraLogic Consultancy, Pune",
          "role":"Python/AIML Trainee",
          "duration":"June 2024 – July 2024",
          "outcome":"Gained experience in Python and foundational knowledge in AIML during a 2-month traineeship. \n Strengthened Python programming skills with focusing on writing efficient code. \n Developed backend development skills using FastAPI"
@@ -39,13 +39,6 @@ def experiences(request):
          "role":"Web-Developer Intern",
          "duration":"June 2023 – Aug 2023",
          "outcome":"Gained experience in web development during an internship at Celebal Technologies. \n Strengthened skills in frontend development using HTML, CSS, JavaScript. \n Developed interactive web application, focusing on user-friendly designs"
-
-         },
-
-         {"company":"TheResolvedTech, India",
-         "role":"Web-Developer Intern",
-         "duration":"Feb 2023 - Mar 2023",
-         "outcome":"Gained practical knowledge of utilizing HTML, CSS, and JavaScrip. \n Gained experience in web development. \n  Designed and developed an interactive web application"
 
          }
     ]
