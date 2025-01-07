@@ -112,5 +112,3 @@ def send_email(request):
         return redirect('/')  # Redirect to home or success page
     return redirect('/')
 
-def resume(request):
-    return render(request,"resume.html")
